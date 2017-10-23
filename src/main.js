@@ -6,7 +6,7 @@ import router from './router'
 import VueResource from 'vue-resource'
 
 import './common/stylus/icon.css'
-// import 'common/stylus/base.styl'
+import 'common/stylus/index.styl'
 
 Vue.config.productionTip = false
 

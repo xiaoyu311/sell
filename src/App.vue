@@ -37,6 +37,7 @@
           var data = res.body
           if (data.errno === ERR_OK) {
             this.seller = data.data
+            console.log(data.data.supports)
           }
         })
     }
@@ -46,7 +47,6 @@
 <style lang="stylus" rel="stylesheet/stylus">
 
   @import 'common/stylus/mixin.styl'
-  
 
   #app
     .tab
